@@ -1,0 +1,21 @@
+{
+  "project": "Photographic Composition as Large Systems",
+  "version": "0.1",
+  "snapshot_date": "2026-09-30",
+  "primary_language": "ru",
+  "status": "ongoing_working_research",
+  "central_architecture": [
+    "large_system_segmentation",
+    "relations_between_large_systems",
+    "subject_bearing_system",
+    "local_reserve_boundaries_compensation",
+    "fine_tuning_by_balancing_compromises"
+  ],
+  "do_not_default_to": [
+    "rule_of_thirds",
+    "golden_ratio",
+    "generic_leading_lines",
+    "fixed_visual_weight"
+  ],
+  "next_primary_problem": "operationalize_large_system_segmentation_and_validate_on_unseen_real_frames"
+}
