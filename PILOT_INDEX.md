@@ -98,3 +98,57 @@ The answer depends on contrast of the piece, overall frame contrast relative to 
 
 Current direction:
 **break frame into large systems first; after that perform fine tuning by balancing compromises.**
+
+## Pilot 329 — generator as composition-correction operator
+
+Goal: stop asking whether the generator merely “makes images prettier” and instead record **which large-system operations it performs** when transforming a frame.
+
+### 329-001 — person in harvested field: active sky suppression
+Working sequence: real frame → first generation → second generation.
+
+Observed first-step operation:
+- large upper sky system becomes substantially calmer;
+- fine cloud activity/local contrast is reduced;
+- the subject becomes more isolated against the upper system;
+- the lower field remains comparatively textured.
+
+Second-step observation:
+- the large-system arrangement changes much less, suggesting provisional stabilization after G1.
+
+Current operation class:
+**suppress active system / reduce competing background activity**
+
+Important confound:
+fine cloud detail can also be lost through generative reconstruction, so this case is strong evidence of a transformation pattern, not proof of its perceptual mechanism.
+
+### 329-002 — stool at wall/grass boundary: weak structuring of a large wall field
+Working identification: first image real, second generated. **This identity has not yet been explicitly confirmed by the user.**
+
+Observed generated changes:
+- broad low-frequency tonal structure appears in the wall;
+- wall/grass tonal relation strengthens;
+- the stool stays small near the system boundary;
+- the large wall remains visually empty but less structurally uniform.
+
+Current operation class:
+**structure quiet volume / redistribute contrast between large systems**
+
+Status:
+useful candidate, but source identity must be confirmed before treating it as a clean case.
+
+### 329-003 — legacy stool/empty-volume generation series
+Across earlier synthetic/img2img attempts with deliberately excessive empty space, generators repeatedly introduced:
+- gradients;
+- texture;
+- light streaks;
+- foliage/leaves;
+- weak edge structures.
+
+These additions often occupied the excessive empty region without becoming an equally dominant subject.
+
+Current operation class:
+**add weak compensator / structure quiet volume**
+
+Limitation:
+those historical tests were not clean paired balanced-vs-unbalanced controls, so the next version of 329 must explicitly compare matched pairs.
+
