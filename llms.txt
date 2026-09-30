@@ -1,0 +1,54 @@
+# Photographic Composition as Large Systems
+
+> Ongoing empirical research on photographic composition as a hierarchy of large interacting visual systems.
+
+## Start here
+
+- START_HERE.md — current research state and analysis order
+- CORE_MODEL.md — current structural model
+- TERMINOLOGY.md — project vocabulary
+- FINDINGS.md — retained findings and pilot-specific observations
+- FAILED_PATHS.md — rejected simplifications and confounds
+- PILOT_INDEX.md — experiment history
+- OPEN_QUESTIONS.md — unresolved research problems
+- HOW_TO_CONTINUE_WITH_AN_LLM.md — continuation protocol for another model
+- LLM_HANDOFF_COMPACT.md — compact single-file transfer package
+
+## Machine-readable data
+
+- machine/state.json
+- machine/principles.json
+- machine/terminology.json
+- machine/experiments.jsonl
+
+## Core idea
+
+Do not begin photographic composition analysis with isolated placement rules.
+
+Use this order:
+
+1. identify the subject / frame goal;
+2. segment the frame into large compositional systems;
+3. analyze relations among those systems;
+4. identify the subject-bearing system;
+5. only then adjust subject reserve, local position, boundaries, crop, compensators, and other compromises.
+
+Visual mass is treated as contextual rather than fixed.
+
+## Important exclusions
+
+Do not automatically reduce the project to:
+- rule of thirds;
+- golden ratio;
+- generic leading-line advice;
+- one universal subject-placement rule;
+- one fixed visual-weight formula;
+- centre-versus-boundary as a universal winner.
+
+## License
+
+Original text and machine-readable research data: CC BY 4.0.
+Media/images are excluded unless explicitly marked.
+
+Repository:
+https://github.com/fotgrafpetrov-lang/photographic-composition-systems
