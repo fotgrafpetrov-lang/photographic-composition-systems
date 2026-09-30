@@ -47,7 +47,7 @@ Do not automatically reduce the project to:
 
 ## License
 
-Original text and machine-readable research data: CC BY 4.0.
+Original text and machine-readable research data: CC BY-NC 4.0.
 Media/images are excluded unless explicitly marked.
 
 Repository:
