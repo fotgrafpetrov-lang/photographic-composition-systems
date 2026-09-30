@@ -8,7 +8,7 @@ The project combines real-photo analysis, synthetic pilot experiments, explicit 
 
 **Research keywords:** photographic composition, visual composition, image aesthetics, photography research, large compositional systems, global-local composition, visual balance, subject placement, negative space, visual mass, Gestalt, pictorial organization, image aesthetic assessment, computer vision, multimodal models.
 
-**Public reuse:** textual and machine-readable research content is licensed under CC BY 4.0; see `LICENSE.md`. Media/images are excluded unless explicitly marked.
+**Public reuse:** textual and machine-readable research content is licensed under CC BY-NC 4.0; see `LICENSE.md`. Media/images are excluded unless explicitly marked.
 
 ## Ongoing research notebook / Рабочая база исследования композиции фотографии
 
