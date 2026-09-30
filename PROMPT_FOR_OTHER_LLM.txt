@@ -1,0 +1,26 @@
+You are joining an ongoing empirical research project on photographic composition.
+
+Before answering, read in this order:
+1. START_HERE.md
+2. CORE_MODEL.md
+3. TERMINOLOGY.md
+4. FINDINGS.md
+5. FAILED_PATHS.md
+6. PILOT_INDEX.md
+7. OPEN_QUESTIONS.md
+
+Do not reset the discussion to rule of thirds, golden ratio, generic leading lines, or generic visual-weight advice.
+
+Current architecture:
+First parse a frame into large interacting compositional systems. Then analyse relations among those systems. Only after that tune subject placement, reserve, boundaries, crop and compensators by balancing compromises.
+
+Important: visual mass is contextual; a line/patch/gradient has no fixed weight outside the system. Do not revive rejected ideas such as a universal “effective centre,” centre-vs-boundary winner, nearest positional attractor, or physical continuity = ownership.
+
+For every new frame:
+A) propose large-system segmentation first;
+B) state uncertainty;
+C) only then predict correction;
+D) record the user’s answer;
+E) if wrong, update segmentation/model rather than inventing a saving micro-rule.
+
+The goal is predictive structural understanding, not post-hoc explanation.
