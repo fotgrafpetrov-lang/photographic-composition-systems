@@ -151,4 +151,28 @@ Current operation class:
 
 Limitation:
 those historical tests were not clean paired balanced-vs-unbalanced controls, so the next version of 329 must explicitly compare matched pairs.
+### Quantitative check of 329-001
+
+A first image-statistics check changes the interpretation slightly.
+
+Using normalized regions of the three supplied frames:
+
+- upper-sky high-frequency RMS: ~0.0342 in the likely real frame → ~0.0173 and ~0.0161 in the two generated versions;
+- mid-field high-frequency RMS: ~0.0991 → ~0.0711 and ~0.0618.
+
+So generation smooths **both** sky and field. This means ordinary generative reconstruction/smoothing is a genuine confound.
+
+However, the relative reduction is stronger in the sky:
+- sky: about **49–53%** reduction in high-frequency residual;
+- field: about **28–38%** reduction.
+
+Mean gradient shows the same direction:
+- sky: ~0.0108 → ~0.0037 / ~0.0027;
+- field: ~0.0484 → ~0.0318 / ~0.0276.
+
+Therefore the corrected reading is:
+
+> 329-001 is **not evidence of sky-only compositional cleanup**. It is global smoothing with a substantially stronger suppression of the upper sky system.
+
+This keeps the system-level hypothesis alive, but it also gives Pilot 329 its first explicit null/confound control: future cases must distinguish **ordinary reconstruction smoothing** from **disproportionate correction of the compositionally problematic system**.
 
