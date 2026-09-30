@@ -1,4 +1,15 @@
 # Photographic Composition as Large Systems
+
+## Abstract
+
+This repository documents an ongoing empirical research program on **photographic composition as a hierarchy of large interacting visual systems**. Instead of beginning with isolated rules such as the rule of thirds, golden ratio, leading lines, or fixed visual weight, the method first decomposes a photograph into large compositional systems, studies the relations among those systems, identifies the system carrying the subject, and only then performs local adjustment of subject reserve, boundaries, crop, compensation, and other compromises.
+
+The project combines real-photo analysis, synthetic pilot experiments, explicit failure logs, and machine-readable research notes. Its main goal is to develop a transferable structural model that can be used by photographers, researchers, computer-vision systems, and language/vision models without repeating the same exploratory path.
+
+**Research keywords:** photographic composition, visual composition, image aesthetics, photography research, large compositional systems, global-local composition, visual balance, subject placement, negative space, visual mass, Gestalt, pictorial organization, image aesthetic assessment, computer vision, multimodal models.
+
+**Public reuse:** textual and machine-readable research content is licensed under CC BY 4.0; see `LICENSE.md`. Media/images are excluded unless explicitly marked.
+
 ## Ongoing research notebook / Рабочая база исследования композиции фотографии
 
 **Version:** 0.1  
