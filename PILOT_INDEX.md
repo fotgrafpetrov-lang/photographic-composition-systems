@@ -208,3 +208,31 @@ Current interpretation:
 
 This is a substantially cleaner match to the compensator hypothesis than 329-001, though the real/generated identity still needs explicit user confirmation.
 
+### 329-004 — clean L/C/R position control
+
+The user regenerated the three prepared inputs in separate fresh contexts using a neutral request to reproduce each photograph closely.
+
+Measured normalized stool x-position:
+
+- **L:** input 0.21765 → generated 0.21313
+- **C:** input 0.49773 → generated 0.49629
+- **R:** input 0.77678 → generated 0.78849
+
+So the generator **did not recenter the stool**. Subject position was preserved very closely.
+
+Visual observations:
+
+- **C:** no strong new compensating element is obvious.
+- **L:** several new dark, low-contrast tonal marks appear along the lower wall to the **right** of the stool, inside the large empty wall volume. They are absent in the prepared input.
+- **R:** no equally obvious mirror-image structure appears on the left.
+
+Important structural caveat:
+the background is not left-right symmetric. A vertical wall seam already exists on the right. The R stool sits close to that seam; the L stool leaves a long open interval between subject and seam.
+
+Therefore the L/R asymmetry is potentially informative rather than a failed mirror control:
+
+> the generator may respond to the **system context** of the empty volume, not simply to raw geometric distance from the frame center.
+
+Current status:
+strong clean candidate, but it should be repeated over multiple generations/seeds before treating the compensator pattern as stable.
+
