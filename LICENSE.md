@@ -2,30 +2,24 @@
 
 ## Text and machine-readable research data
 
-Unless otherwise noted, the original textual content and machine-readable research data in this repository are licensed under the **Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0)**.
+Unless otherwise noted, the original textual content and machine-readable research data in this repository are licensed under the **Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)**.
 
 You are free to:
 
-- share — copy and redistribute the material in any medium or format;
-- adapt — remix, transform, and build upon the material;
+- share — copy and redistribute the material in any medium or format
 
-under these conditions:
+under the following terms:
 
 - **Attribution** — you must give appropriate credit, provide a link to the license, and indicate if changes were made.
-- **NonCommercial** — you may not use the material for commercial purposes without separate permission from the copyright holder.
+- **NonCommercial** — you may not use the material for commercial purposes.
+- **NoDerivatives** — if you remix, transform, translate, adapt, or build upon the material, you may not distribute the modified material without separate permission from the copyright holder.
 
 Official license:
-https://creativecommons.org/licenses/by-nc/4.0/
-
-## Commercial use
-
-Commercial use is **not granted by this license**. If you want to use substantial parts of this research in a paid product, commercial publication, commercial training system, proprietary commercial service, or other commercial context, contact the copyright holder for separate permission.
+https://creativecommons.org/licenses/by-nc-nd/4.0/
 
 ## Images and other media
 
-Photographs, screenshots, generated images, and other media in `media/` or elsewhere in the repository are **not automatically covered by CC BY-NC 4.0** unless a file or accompanying note explicitly says so.
-
-This distinction exists because some media may have separate copyright, privacy, model-release, or source restrictions.
+Photographs, screenshots, generated images, and other media in `media/` or elsewhere in the repository are **not automatically covered by CC BY-NC-ND 4.0** unless a file or accompanying note explicitly says so.
 
 ## Suggested attribution
 
@@ -34,4 +28,4 @@ This distinction exists because some media may have separate copyright, privacy,
 
 ## Important note about previous licensing
 
-Earlier versions of this repository briefly stated CC BY 4.0. Creative Commons licenses are irrevocable for copies already received under that license. The current published version of the repository is CC BY-NC 4.0 for text and machine-readable research data.
+Earlier versions of this repository briefly stated a more permissive Creative Commons license. Creative Commons licenses are irrevocable for copies already received under those earlier terms. The current published version of the repository is CC BY-NC-ND 4.0 for text and machine-readable research data.
