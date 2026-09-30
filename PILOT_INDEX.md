@@ -175,4 +175,36 @@ Therefore the corrected reading is:
 > 329-001 is **not evidence of sky-only compositional cleanup**. It is global smoothing with a substantially stronger suppression of the upper sky system.
 
 This keeps the system-level hypothesis alive, but it also gives Pilot 329 its first explicit null/confound control: future cases must distinguish **ordinary reconstruction smoothing** from **disproportionate correction of the compositionally problematic system**.
+### Quantitative check of 329-002
+
+The stool/wall pair gives a cleaner result than 329-001.
+
+Assuming the first supplied image is the real frame and the second the generated reconstruction:
+
+**Upper wall**
+- low-frequency residual structure: ~0.00484 → ~0.00715 (**+48%**);
+- mid-scale structure: ~0.00594 → ~0.00887 (**+49%**);
+- high-frequency texture: ~0.03364 → ~0.01749 (**−48%**);
+- mean gradient magnitude: ~0.03019 → ~0.01360 (**−55%**).
+
+**Mid wall**
+- low/mid-frequency structure rises by roughly **13%**;
+- high-frequency structure falls by roughly **39%**;
+- mean gradient falls by roughly **53%**.
+
+**Mid grass**
+- low-frequency structure changes only about **−5%**;
+- high-frequency structure about **−12%**;
+- mean gradient about **−13%**.
+
+This is important because the wall does not show simple uniform smoothing. It shows a **scale transfer**:
+
+> fine wall texture is suppressed while broader weak tonal structure increases.
+
+The grass does not undergo an equally strong transformation.
+
+Current interpretation:
+**structure quiet volume by replacing fine texture with low-frequency tonal organization.**
+
+This is a substantially cleaner match to the compensator hypothesis than 329-001, though the real/generated identity still needs explicit user confirmation.
 
