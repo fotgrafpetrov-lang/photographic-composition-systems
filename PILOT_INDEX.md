@@ -38,9 +38,8 @@ Main value:
 
 Current lesson: use real series primarily to identify **large systems and their relations**, then validate local corrections with the user.
 
-Included media:
-- `media/pilot_316_contact_sheet.jpg`
-- `media/pilot_316_diagnostics.jpg`
+Media note:
+- Pilot 316 images are retained in the local research package but are not mirrored in this GitHub snapshot yet.
 
 ## Pilot 324 — global vs local
 Synthetic G/H/I comparison.
