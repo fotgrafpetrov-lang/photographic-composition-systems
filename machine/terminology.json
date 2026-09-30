@@ -1,0 +1,17 @@
+[
+  {"ru":"предмет / цель кадра","en":"subject / frame target","status":"canonical_project_term"},
+  {"ru":"крупная система кадра","en":"large compositional system","status":"canonical_working_term"},
+  {"ru":"локальная система / кусок","en":"local system / local piece","status":"canonical_working_term"},
+  {"ru":"глобальная система","en":"global system","status":"canonical_working_term"},
+  {"ru":"запас под предмет","en":"subject reserve","status":"canonical_project_term"},
+  {"ru":"оптималка","en":"optimal reserve","status":"user_term"},
+  {"ru":"максималка","en":"maximal reserve","status":"user_term"},
+  {"ru":"ограничитель","en":"limiter / boundary","status":"user_term"},
+  {"ru":"непрерывная линия","en":"continuous line / structure","status":"user_term"},
+  {"ru":"склейка","en":"structural gluing","status":"user_term"},
+  {"ru":"визуальная масса","en":"visual mass","status":"canonical_project_term_contextual"},
+  {"ru":"компенсатор","en":"compensator","status":"canonical_project_term"},
+  {"ru":"обрез по бесконечности","en":"unresolved crop on continuing structure","status":"user_term"},
+  {"ru":"эффективный центр","en":"effective centre","status":"provisional_deprecated"},
+  {"ru":"аттрактор позиции","en":"positional attractor","status":"provisional_deprecated"}
+]
