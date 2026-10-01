@@ -327,3 +327,26 @@ Current mechanism:
 3. the secondary modulation is spatially tied to the subject and decays with distance;
 4. no clean composition-specific counterweight rule has been established.
 
+### 329-008 — L_bad vs weak compensated L, paired seeds
+
+Five paired seeds (1001–1005) were generated from:
+- **L_bad** — unchanged off-center input;
+- **L_comp_weak** — same geometry and subject, with only a broad weak edgeless light field in the empty right wall.
+
+Settings were identical (Realistic Vision v5.1, denoise 0.58).
+
+Generator intervention did **not** decrease for the compensated input:
+
+- overall raw reconstruction MAE: bad **0.06950**, comp **0.06999**;
+- upper-wall MAE: bad **0.03635**, comp **0.03704** (paired p≈0.63);
+- broad low-frequency MAE, sigma 20: bad **0.02009**, comp **0.02080** (p≈0.09);
+- sigma 40: bad **0.01504**, comp **0.01581** (p≈0.06).
+
+The pairwise output difference projects strongly onto the original compensator field (mean projection ≈ **0.90**), meaning the model mostly **carries the weak tonal field through** rather than switching to a different generative strategy.
+
+Conclusion:
+
+> under this local img2img setup, the weak compositional distinction that is meaningful to the human observer is not a strong enough control signal to alter the generator's global behavior.
+
+This is a negative but useful result. It weakens the idea of using this Realistic Vision img2img setup as a detector/oracle for fine human-scale composition errors.
+
