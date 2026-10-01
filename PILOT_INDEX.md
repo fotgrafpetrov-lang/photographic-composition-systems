@@ -299,3 +299,31 @@ This is a useful null result: under this local img2img setup, subject displaceme
 
 A tiny position-correlated far-wall tonal bias was detectable in some summaries, but it is around the near-threshold scale and is not being promoted as a composition effect.
 
+### 329-007 — seed-subtracted position response at denoise 0.58
+
+Five matched seeds (1001–1005) were compared across L/C/R. For each seed, the common realization
+
+`M_s = (L_s + C_s + R_s) / 3`
+
+was removed before analyzing the remaining position-dependent component.
+
+Key result: the seed dominates the global realization. In the upper wall, same-seed L/C/R low-frequency structure correlates at about **0.84** (sigma 20), while cross-condition images from different seeds average about **−0.03** correlation.
+
+After removing the seed-common component, a weaker but coherent position-following response remains. At broad scales the averaged L residual and mirrored R residual correlate strongly (about **0.83** at sigma 40; **0.91** at sigma 60 in the upper-wall crop). When the crop is restricted farther from the subject and blurred internally to avoid horizon spill, the mirror relation weakens substantially (about **0.51** at sigma 40).
+
+The direction of the residual is important: it is **not primarily a counterweight added to the empty side**. The wall near the subject tends to become relatively brighter/stronger, while the opposite side becomes relatively darker. In the lower wall band, the subject-vs-opposite-side residual contrast is approximately:
+
+- L: **0.0080**
+- C: **0.0064**
+- R: **0.0124**
+
+The same effect is weaker higher in the wall.
+
+Because a similar subject-centered field also appears for C, and because the off-center average is not reliably stronger than C in this five-seed sample, this is currently interpreted as **generic subject–environment coupling / subject-centered tonal organization**, not as proof that the model detected and corrected compositional imbalance.
+
+Current mechanism:
+1. seed chooses most of the global wall/light/texture realization;
+2. subject position modulates that realization secondarily;
+3. the secondary modulation is spatially tied to the subject and decays with distance;
+4. no clean composition-specific counterweight rule has been established.
+
