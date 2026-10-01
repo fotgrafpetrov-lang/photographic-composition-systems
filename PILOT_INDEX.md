@@ -236,3 +236,40 @@ Therefore the L/R asymmetry is potentially informative rather than a failed mirr
 Current status:
 strong clean candidate, but it should be repeated over multiple generations/seeds before treating the compensator pattern as stable.
 
+### 329-005 — strict symmetric-background control
+
+A new L/C/R set used an exactly mirrored background, removing the wall-seam confound. Each image was regenerated separately in a fresh context.
+
+Measured stool x-position:
+
+- **L:** input 0.21836 → generated 0.21493
+- **C:** input 0.49844 → generated 0.50000
+- **R:** input 0.77749 → generated 0.77762
+
+So again, the generator **did not recenter the subject**.
+
+Measured wall/grass boundary:
+
+- input for all three: ~0.61172 of frame height;
+- **L generated:** ~0.64958;
+- **C generated:** ~0.60815;
+- **R generated:** ~0.61257.
+
+Thus L underwent a substantial system-level reframing: the wall region increased by about 3.8% of frame height, while C and R kept the original wall/grass proportion closely.
+
+However, the predicted clean mirror compensation did **not** appear consistently. A rough normalized low-frequency comparison found more empty-side change in R, but L did not show the corresponding mirrored pattern.
+
+Current conclusion:
+
+> this control does **not** support a simple universal rule “off-center subject → generator adds a mirrored compensator in the empty side.”
+
+What it does support:
+- the generator preserves the subject's horizontal placement very closely;
+- it can change the surrounding large systems instead;
+- the size/type of that correction varies substantially across individual generations.
+
+Status: **important ambiguous/null control**, not a failed experiment.
+
+Next required step:
+repeat several independent generations for each L/C/R and compare distributions rather than single outputs.
+
