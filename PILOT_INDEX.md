@@ -350,3 +350,23 @@ Conclusion:
 
 This is a negative but useful result. It weakens the idea of using this Realistic Vision img2img setup as a detector/oracle for fine human-scale composition errors.
 
+### 329-009 — free txt2img prior probe: stool / wall / grass
+
+Twenty txt2img samples (seeds 1001–1020) were generated with a neutral scene prompt asking for a **small white stool on green grass in front of a plain gray stucco wall**.
+
+Manual visual classification:
+
+- 19/20 outputs contain a stool/chair-like subject; 1/20 drifts to a person despite the negative prompt.
+- The subject is almost always close to the **global center or the center of a clearly bounded local region**.
+- Subjects are generally medium/large relative to the frame. None recreate the deliberately tiny-subject + huge clean empty-field condition used in the controlled composition tests.
+- Many outputs introduce extra organization that the prompt did not ask for: architectural corners, recesses, openings, hedges/vegetation blocks, and strong directional light/shadow.
+- Only a minority stay close to a genuinely plain wall + grass scene; even there, the subject is usually larger and centrally stabilized.
+
+Interpretation:
+
+> free generation avoids the hard empty-space problem rather than revealing a learned “optimal empty-space” law.
+
+The simplest explanation is statistical prior: common selected photographs more often stabilize a simple subject through size, centering/local centering, scene boundaries, light, or additional structure. Rare expert arrangements that depend almost entirely on calibrated empty space may carry too little weight to become a dominant generative mode.
+
+This supports using the generator as a probe of **mass-image priors**, not as a direct oracle for the user's “optimalka”.
+
