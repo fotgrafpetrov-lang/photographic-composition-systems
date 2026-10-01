@@ -273,3 +273,29 @@ Status: **important ambiguous/null control**, not a failed experiment.
 Next required step:
 repeat several independent generations for each L/C/R and compare distributions rather than single outputs.
 
+### 329-006 — 20×3 paired-seed symmetric L/C/R repeat
+
+The strict symmetric L/C/R inputs were each regenerated 20 times in local Forge / Realistic Vision v5.1, using the same seed set 1001–1020 and identical settings (30 steps, DPM++ 2M Karras, CFG 5, denoise 0.4, 576×768).
+
+Geometry stayed effectively fixed:
+
+- horizon input: 468 px; generated means L 468.30, C 468.10, R 468.25 px;
+- stool x input: L 125.46, C 287.14, R 447.45 px;
+- stool x generated means: L 125.47, C 286.53, R 447.43 px.
+
+In the far upper wall, where all three inputs are pixel-identical, total reconstruction change was essentially the same for all conditions:
+
+- raw MAE: L 0.025574, C 0.025335, R 0.025100;
+- off-center average minus center: 0.0000022, paired p≈0.977.
+
+Broad low-frequency change (Gaussian sigma 20) also did not increase for off-center inputs:
+
+- L 0.008634, C 0.008387, R 0.007850;
+- off-center average minus center: -0.000145, paired p≈0.296.
+
+**Conclusion:** this repeated control does not reproduce a global mirrored compensator and does not show greater system-level correction for L/R than C. Most position-driven changes remain local around the stool/horizon.
+
+This is a useful null result: under this local img2img setup, subject displacement alone is not enough to make the generator globally rebalance the frame.
+
+A tiny position-correlated far-wall tonal bias was detectable in some summaries, but it is around the near-threshold scale and is not being promoted as a composition effect.
+
